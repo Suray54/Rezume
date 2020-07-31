@@ -1,0 +1,49 @@
+$color-white: #fff;
+$color-black: #000;
+
+.section1 {
+  background-color: $color-black;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  overflow: hidden;
+  &:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+  }
+  .details {
+    min-height: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    h1 {
+      z-index: 100;
+      color: $color-white;
+      font-size: 70px;
+      font-weight: 300;
+      line-height: 84px;
+      span {
+        font-weight: 700;
+        display: block;
+        font-size: 80px;
+        line-height: 84px;
+      }
+    }
+    h3 {
+      font-size: 1.8rem;
+      letter-spacing: 3.2px;
+      line-height: 27.2px;
+      text-transform: uppercase;
+      color: $color-white;
+    }
+  }
+}

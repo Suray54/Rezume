@@ -1,0 +1,59 @@
+.navbar {
+  text-transform: uppercase;
+  padding: 35px 10%;
+  background-color: transparent;
+  z-index: 1000;
+  &-nav {
+    & .nav-item {
+      &:not(:first-child) {
+        @media only screen and (max-width: 995px) {
+          margin-left: 0;
+        }
+        margin-left: 3rem;
+      }
+    }
+    li {
+      a {
+        text-decoration: none;
+        font-size: 1.2rem;
+        letter-spacing: 3px;
+        color: white;
+        line-height: 3rem;
+        transition: transform 0.3s ease-in-out;
+      }
+
+      &.active,
+      &:hover {
+        @media only screen and (max-width: 995px) {
+          text-decoration: none;
+          color: purple;
+          transform: scale(1);
+        }
+        text-decoration: none;
+        color: purple;
+        transform: scale(1.2);
+      }
+    }
+  }
+  &-toggler {
+    i {
+      color: grey;
+      font-size: 2.6rem;
+      padding: 10px;
+      display: flex;
+    }
+  }
+}
+
+.affix {
+  // when scrolled affix is added changing the following properties for effect
+  transition: all 0.8s;
+  background-color: white;
+  padding: 20px 0;
+  .navbar-nav li a {
+    color: grey;
+    &:hover {
+      color: purple;
+    }
+  }
+}
