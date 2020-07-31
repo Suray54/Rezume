@@ -4,34 +4,28 @@
   background-color: transparent;
   z-index: 1000;
   &-nav {
+    li {
+      a {
+        font-size: 1.2rem;
+        color: white;
+        letter-spacing: 3px;
+        line-height: 3rem;
+        transition: transform 0.3s ease-in-out;
+        &:hover {
+          @media only screen and (max-width: 995px) {
+            transform: none;
+          }
+          transform: scale(1.2);
+          color: purple;
+        }
+      }
+    }
     & .nav-item {
       &:not(:first-child) {
         @media only screen and (max-width: 995px) {
           margin-left: 0;
         }
         margin-left: 3rem;
-      }
-    }
-    li {
-      a {
-        text-decoration: none;
-        font-size: 1.2rem;
-        letter-spacing: 3px;
-        color: white;
-        line-height: 3rem;
-        transition: transform 0.3s ease-in-out;
-      }
-
-      &.active,
-      &:hover {
-        @media only screen and (max-width: 995px) {
-          text-decoration: none;
-          color: purple;
-          transform: scale(1);
-        }
-        text-decoration: none;
-        color: purple;
-        transform: scale(1.2);
       }
     }
   }
@@ -45,15 +39,46 @@
   }
 }
 
+.scrollspy {
+  display: flex;
+  @media only screen and (max-width: 995px) {
+    display: block;
+  }
+
+  .isCurrent {
+    @media only screen and (max-width: 995px) {
+      transform: none;
+    }
+    transform: scale(1.2);
+    font-weight: 700;
+    & a {
+      color: purple;
+    }
+  }
+}
+
 .affix {
   // when scrolled affix is added changing the following properties for effect
   transition: all 0.8s;
   background-color: white;
   padding: 20px 0;
-  .navbar-nav li a {
-    color: grey;
-    &:hover {
-      color: purple;
+  .navbar-nav {
+    li a {
+      color: grey;
+      &:hover {
+        color: purple;
+      }
+    }
+  }
+  .scrollspy {
+    .isCurrent {
+      @media only screen and (max-width: 995px) {
+        transform: none;
+      }
+      transform: scale(1.1);
+      & a {
+        color: purple;
+      }
     }
   }
 }

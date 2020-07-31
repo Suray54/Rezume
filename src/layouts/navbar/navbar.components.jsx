@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./navbar.styles.scss";
-
+import Scrollspy from "react-scrollspy";
 export default class navbar extends Component {
   render() {
     return (
@@ -24,31 +24,37 @@ export default class navbar extends Component {
               id="navbarsExample09"
             >
               <ul className="navbar-nav">
-                <li className="nav-item">
-                  <a className="nav-link" href="#section-home">
-                    Home
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#section-portfolio">
-                    Portfolio
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#section-resume">
-                    Resume
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#section-about">
-                    About
-                  </a>
-                </li>
-                <li className="nav-item">
-                  <a className="nav-link" href="#section-contact">
-                    Contact
-                  </a>
-                </li>
+                <Scrollspy
+                  className="scrollspy"
+                  items={["section-home", "section-portfolio"]}
+                  currentClassName="isCurrent"
+                >
+                  <li className="nav-item">
+                    <a className="nav-link" href="#section-home">
+                      Home
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#section-portfolio">
+                      Portfolio
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#section-resume">
+                      Resume
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#section-about">
+                      About
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#section-contact">
+                      Contact
+                    </a>
+                  </li>
+                </Scrollspy>
               </ul>
             </div>
           </div>
