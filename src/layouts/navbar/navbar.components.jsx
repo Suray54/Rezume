@@ -26,7 +26,14 @@ export default class navbar extends Component {
               <ul className="navbar-nav">
                 <Scrollspy
                   className="scrollspy"
-                  items={["section-home", "section-portfolio"]}
+                  items={[
+                    "section-home",
+                    "section-portfolio",
+                    "section-resume",
+                    "section-about",
+                    "section-blog",
+                    "section-contact",
+                  ]}
                   currentClassName="isCurrent"
                 >
                   <li className="nav-item">
@@ -47,6 +54,11 @@ export default class navbar extends Component {
                   <li className="nav-item">
                     <a className="nav-link" href="#section-about">
                       About
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a className="nav-link" href="#section-blog">
+                      Blog
                     </a>
                   </li>
                   <li className="nav-item">

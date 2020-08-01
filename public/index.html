@@ -72,12 +72,31 @@
     ></script>
     <!-- Bootstrap js -->
     <script>
+      // for affix
       $(window).scroll(function () {
         if ($(document).scrollTop() > 90) {
           $(".navbar").addClass("affix");
         } else {
           $(".navbar").removeClass("affix");
         }
+      });
+
+      // for filter gallery
+      $(document).ready(function () {
+        $(".filter-button").click(function () {
+          var value = $(this).attr("data-filter");
+
+          if (value == "all") {
+            $(".filter").show("1000");
+          } else {
+            $(".filter")
+              .not("." + value)
+              .hide();
+            $(".filter")
+              .filter("." + value)
+              .show();
+          }
+        });
       });
     </script>
   </body>
