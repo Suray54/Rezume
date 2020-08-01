@@ -1,0 +1,94 @@
+$background-color: #222222;
+$color-white: #fff;
+$color-black: #000;
+$color-grey: grey;
+$color-grey-light: #333333;
+$primary-color: purple;
+
+.section4 {
+  background-color: $background-color;
+  padding: 8rem 10%;
+  .about {
+    &__img {
+      img {
+        width: 95%;
+        height: 100%;
+        @media only screen and (max-width: 995px) {
+          width: 100%;
+        }
+      }
+    }
+    &__details {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      padding: 20px;
+      @media only screen and (max-width: 995px) {
+        padding: 0;
+      }
+      h2 {
+        color: $color-white;
+        font-size: 30px;
+        font-weight: 300;
+        line-height: 3.6rem;
+        padding: 20px 0;
+        span {
+          font-weight: 800;
+        }
+      }
+
+      h5 {
+        color: $color-grey;
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 30px;
+      }
+      p {
+        margin-top: 10px;
+        color: $color-grey;
+        font-size: 16px;
+        font-weight: 300;
+        line-height: 27.2px;
+      }
+      .button {
+        margin: 30px 0;
+        a {
+          text-decoration: none;
+        }
+        &__hire {
+          font-size: 12px;
+          letter-spacing: 3px;
+          line-height: 18px;
+          background-color: $primary-color;
+          padding: 8px 34px;
+          outline: none;
+          color: $color-white;
+          border-radius: 20px;
+          border: none;
+          text-transform: uppercase;
+          margin-right: 10px;
+          &:hover {
+            background-color: $color-white;
+            color: $color-grey;
+          }
+        }
+        &__CV {
+          font-size: 12px;
+          letter-spacing: 3px;
+          line-height: 18px;
+          background-color: $color-grey;
+          padding: 8px 34px;
+          outline: none;
+          color: $color-white;
+          border-radius: 20px;
+          border: none;
+          text-transform: uppercase;
+          &:hover {
+            background-color: $color-white;
+            color: $color-grey;
+          }
+        }
+      }
+    }
+  }
+}

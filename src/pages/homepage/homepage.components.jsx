@@ -5,6 +5,8 @@ import Navbar from "../../layouts/navbar/navbar.components";
 
 import SectionOne from "../../components/section-one/section-one.component";
 import SectionTwo from "../../components/section-two/section-two.component";
+import SectionThree from "../../components/section-three/section-three.component";
+import SectionFour from "../../components/section-four/section-four.component";
 
 export default class Homepage extends Component {
   render() {
@@ -13,6 +15,8 @@ export default class Homepage extends Component {
         <Navbar />
         <SectionOne />
         <SectionTwo />
+        <SectionThree />
+        <SectionFour />
       </div>
     );
   }

@@ -13,15 +13,16 @@ $primary-color: purple;
     font-size: 30px;
     font-weight: 300;
     line-height: 3.6rem;
+    padding: 20px 0;
     span {
-      font-weight: 700;
+      font-weight: 800;
     }
   }
 
   .tags {
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+
     button {
       color: $color-grey;
       font-size: 1.6rem;

@@ -31,7 +31,7 @@ export default class navbar extends Component {
                     "section-portfolio",
                     "section-resume",
                     "section-about",
-                    "section-blog",
+                    "section-services",
                     "section-contact",
                   ]}
                   currentClassName="isCurrent"
@@ -57,8 +57,8 @@ export default class navbar extends Component {
                     </a>
                   </li>
                   <li className="nav-item">
-                    <a className="nav-link" href="#section-blog">
-                      Blog
+                    <a className="nav-link" href="#section-services">
+                      services
                     </a>
                   </li>
                   <li className="nav-item">
