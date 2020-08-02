@@ -12,7 +12,7 @@ export default function SectionSix() {
         <div className="col-md-4 ">
           <div className="service">
             <img src={UXUI} alt="UIUX" className="service__img" />
-            <h3>Web Design</h3>
+            <h3>Web Development</h3>
             <p>
               Far far away, behind the word mountains, far from the countries
               Vokalia and Consonantia, there live the blind texts. Separated
