@@ -7,6 +7,8 @@ import SectionOne from "../../components/section-one/section-one.component";
 import SectionTwo from "../../components/section-two/section-two.component";
 import SectionThree from "../../components/section-three/section-three.component";
 import SectionFour from "../../components/section-four/section-four.component";
+import SectionFive from "../../components/section-five/section-five.component";
+import SectionSix from "../../components/section-six/section-six.component";
 
 export default class Homepage extends Component {
   render() {
@@ -17,6 +19,8 @@ export default class Homepage extends Component {
         <SectionTwo />
         <SectionThree />
         <SectionFour />
+        <SectionFive />
+        <SectionSix />
       </div>
     );
   }
