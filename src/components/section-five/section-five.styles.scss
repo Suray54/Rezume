@@ -26,6 +26,9 @@ $primary-color: orangered;
   .testimonial {
     display: flex;
     justify-content: space-between;
+    @media only screen and (max-width: 650px) {
+      margin-top: 20px;
+    }
     &__img {
       width: 60px;
       height: 60px;
