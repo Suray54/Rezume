@@ -1,0 +1,51 @@
+$background-color: #222222;
+$color-white: #fff;
+$color-black: #000;
+$color-grey: grey;
+$color-grey-light: #333333;
+$primary-color: orangered;
+
+.section7 {
+  background-color: $background-color;
+  padding: 8rem 10%;
+  h2 {
+    text-align: center;
+    color: $color-white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 3.6rem;
+    padding: 20px 0;
+    span {
+      font-weight: 800;
+    }
+  }
+  .contact {
+    padding: 30px 0;
+    h2 {
+      text-align: left;
+    }
+
+    &__form {
+      margin-top: 20px;
+    }
+    &__details {
+      margin-top: 20px;
+      ul {
+        li {
+          margin-top: 30px;
+          h3 {
+            font-size: 12px;
+            font-weight: 500;
+            color: $primary-color;
+            text-transform: uppercase;
+          }
+          p {
+            font-size: 16px;
+            font-weight: 300;
+            color: $color-grey;
+          }
+        }
+      }
+    }
+  }
+}

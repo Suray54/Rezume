@@ -12,7 +12,7 @@ export default function SectionThree() {
           <h2>Education</h2>
           <div className="education-item">
             <span>
-              <i class="fas fa-calendar-week"></i> 2017 - 2019
+              <i class="fas fa-calendar-week"></i> 2016 - 2019
             </span>
             <h3>Bachelors in information Teachnology</h3>
             <p>
