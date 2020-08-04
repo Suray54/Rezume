@@ -2,14 +2,14 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 const config = {
-  apiKey: "AIzaSyB9rVQMvbPYWBgN_UI43nLcOkzS8sQ38fw",
-  authDomain: "portfolio-a5118.firebaseapp.com",
-  databaseURL: "https://portfolio-a5118.firebaseio.com",
-  projectId: "portfolio-a5118",
-  storageBucket: "portfolio-a5118.appspot.com",
-  messagingSenderId: "284314441397",
-  appId: "1:284314441397:web:095dc8cff888607ff3d0fc",
-  measurementId: "G-W8298JL8MK",
+  apiKey: "AIzaSyBEuZL82Lwm3P0rP5dY7Nbz1O7kiYU2UX0",
+  authDomain: "resume-53e81.firebaseapp.com",
+  databaseURL: "https://resume-53e81.firebaseio.com",
+  projectId: "resume-53e81",
+  storageBucket: "resume-53e81.appspot.com",
+  messagingSenderId: "821173174023",
+  appId: "1:821173174023:web:1ed9c237a09e197b9f8fa2",
+  measurementId: "G-5849VKHNPK",
 };
 
 export const createClient = async ({ name, email, phone, message }) => {

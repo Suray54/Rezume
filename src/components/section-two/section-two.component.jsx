@@ -5,7 +5,6 @@ import EDUN from "./../../assets/EDUN.JPG";
 import solutions from "./../../assets/solutions.JPG";
 import projectone from "./../../assets/projectone.JPG";
 import portfolio from "./../../assets/portfolio.JPG";
-import ps from "./../../assets/ps.jpg";
 
 export default function SectionTwo() {
   return (
