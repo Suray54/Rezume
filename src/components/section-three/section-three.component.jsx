@@ -7,55 +7,55 @@ export default class SectionThree extends Component {
       educations: [
         {
           id: 1,
-          date: "2016 - 2019",
-          title: "Bachelors in information Teachnology",
+          date: "2018 - 2019",
+          title: "Bachelors Computer Science (Bsc Hons)",
           detail:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
+            "I have successfully compeleted my bachelors with a first class honors degree.",
           main: "Wolverhampton University",
+        },
+        {
+          id: 2,
+          date: "2016 - 2018",
+          title: "Diploma and Advanced Diploma in information technology",
+          detail:
+            "Successfully completed my diploma in information technology deigned and quality assured by iAcademy.",
+          main: "Herald College Kathmandu",
         },
 
         {
-          id: 2,
-          date: "2016 - 2019",
-          title: "Bachelors in information Teachnology",
-          detail:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
-          main: "Wolverhampton University",
-        },
-        {
           id: 3,
-          date: "2016 - 2019",
-          title: "Bachelors in information Teachnology",
+          date: "2015 - 2016",
+          title: "Higher Secondary level (+2)",
           detail:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
-          main: "Wolverhampton University",
+            "I have passed my higher secondary level education with first division.",
+          main: "Omega International H S School",
         },
       ],
       experiences: [
         {
           id: 1,
-          date: "2016 - 2019",
-          title: "Bachelors in information Teachnology",
+          date: "2017- September",
+          title: "UI-UX Traning and WorkShop",
           detail:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
-          main: "Wolverhampton University",
+            "I took part in the UI-UX Training and Workshop held at Herald. I learned about the user interfacing and user experience, which are the important skill for a front-end developer. I ended up winning the competetaion with my fellow teamates. ",
+          main: "Herald Collage Kathmandu",
         },
 
         {
           id: 2,
-          date: "2016 - 2019",
-          title: "Bachelors in information Teachnology",
+          date: "2017- November",
+          title: "Back-end development Traning and Workshop",
           detail:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
-          main: "Wolverhampton University",
+            "Again held at herald, i learned about CRUD function which are required for the backend developemnt for website.",
+          main: "Herald College Kathmandu",
         },
         {
           id: 3,
-          date: "2016 - 2019",
-          title: "Bachelors in information Teachnology",
+          date: "2019- Octuber",
+          title: "Graphic Designing Training",
           detail:
-            "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic.",
-          main: "Wolverhampton University",
+            "I have successfully completed professional training on Graphic designing course from Broadway Infosys.",
+          main: "Broadway Infosys",
         },
       ],
     };
@@ -75,7 +75,7 @@ export default class SectionThree extends Component {
             {educations.map((education) => (
               <div className="education-item" key={education.id}>
                 <span>
-                  <i class="fas fa-calendar-week"></i> {education.date}
+                  <i class="fas fa-calendar-week"></i> &nbsp;{education.date}
                 </span>
                 <h3>{education.title}</h3>
                 <p>{education.detail}</p>
@@ -89,7 +89,7 @@ export default class SectionThree extends Component {
             {experiences.map((experience) => (
               <div className="experience-item" key={experience.id}>
                 <span>
-                  <i class="fas fa-calendar-week"></i> {experience.date}
+                  <i class="fas fa-calendar-week"></i>&nbsp; {experience.date}
                 </span>
                 <h3>{experience.title}</h3>
                 <p>{experience.detail}</p>

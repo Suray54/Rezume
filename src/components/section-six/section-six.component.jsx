@@ -1,5 +1,7 @@
 import React from "react";
 import UXUI from "./../../assets/UXUI.png";
+import html from "./../../assets/html.jpg";
+import graphic from "./../../assets/graphic.png";
 import "./section-six.styles.scss";
 
 export default function SectionSix() {
@@ -11,13 +13,13 @@ export default function SectionSix() {
       <div className="row">
         <div className="col-md-4 ">
           <div className="service">
-            <img src={UXUI} alt="UIUX" className="service__img" />
+            <img src={html} alt="UIUX" className="service__img" />
             <h3>Web Development</h3>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
+              Web development is the work involved in developing a website for
+              the Internet. Web development can range from developing a simple
+              single static page of plain text to complex web-based internet
+              applications and social network services.
             </p>
             <div className="button">
               <a href="#section-portfolio" class="site-link">
@@ -29,13 +31,12 @@ export default function SectionSix() {
 
         <div className="col-md-4 ">
           <div className="service">
-            <img src={UXUI} alt="UIUX" className="service__img" />
+            <img src={graphic} alt="UIUX" className="service__img" />
             <h3>Graphic Design</h3>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
+              Graphic design is the process of visual communication and
+              problem-solving through the use of typography, photography,
+              iconography and illustration.
             </p>
             <div className="button">
               <a href="#section-portfolio" class="site-link">
@@ -50,10 +51,10 @@ export default function SectionSix() {
             <img src={UXUI} alt="UIUX" className="service__img" />
             <h3>UI / UX</h3>
             <p>
-              Far far away, behind the word mountains, far from the countries
-              Vokalia and Consonantia, there live the blind texts. Separated
-              they live in Bookmarksgrove right at the coast of the Semantics, a
-              large language ocean.
+              The user interface and user experience design offers practical,
+              skill-based instruction centered around a visual communications
+              perspective, rather than on one focused on marketing or
+              programming alone.
             </p>
             <div className="button">
               <a href="#section-portfolio" class="site-link">

@@ -65,7 +65,8 @@ export default class Output extends Component {
                   <span>{collection.message}</span>
                 </div>
                 <div className="header-block">
-                  <button onClick={() => this.handleDelete(collection.id)}>
+                  <button //onClick={() => this.handleDelete(collection.id)}>
+                  >
                     X
                   </button>
                 </div>
