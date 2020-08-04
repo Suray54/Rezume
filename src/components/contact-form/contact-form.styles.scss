@@ -14,7 +14,9 @@ $primary-color: orangered;
       font-weight: 500;
     }
 
-    input[type="text"] {
+    input[type="text"],
+    input[type="number"],
+    input[type="email"] {
       color: $color-white;
       font-size: 14px;
       width: 95%;

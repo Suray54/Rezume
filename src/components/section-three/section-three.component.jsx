@@ -35,7 +35,7 @@ export default class SectionThree extends Component {
         {
           id: 1,
           date: "2017- September",
-          title: "UI-UX Traning and WorkShop",
+          title: "UI-UX Training and WorkShop",
           detail:
             "I took part in the UI-UX Training and Workshop held at Herald. I learned about the user interfacing and user experience, which are the important skill for a front-end developer. I ended up winning the competetaion with my fellow teamates. ",
           main: "Herald Collage Kathmandu",

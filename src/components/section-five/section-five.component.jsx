@@ -8,7 +8,7 @@ export default function SectionFive() {
   return (
     <section className="section5" id="section-about">
       <h2>
-        Client <span>Testimonial</span>
+        others <span>Testimonial</span>
       </h2>
       <div className="row">
         <div className="col-md-6 testimonial">

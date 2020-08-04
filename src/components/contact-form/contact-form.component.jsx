@@ -36,7 +36,7 @@ export default class ContactForm extends Component {
 
           <input
             name="email"
-            type="text"
+            type="email"
             placeholder="Your Email"
             value={this.state.email}
             onChange={this.handleChange}
@@ -45,7 +45,7 @@ export default class ContactForm extends Component {
 
           <input
             name="phone"
-            type="text"
+            type="number"
             placeholder="Your Phone"
             value={this.state.phone}
             onChange={this.handleChange}
