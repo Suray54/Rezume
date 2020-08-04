@@ -1,0 +1,60 @@
+$background-color: #222222;
+$color-white: #fff;
+$color-black: #000;
+$color-grey: grey;
+$color-grey-light: #333333;
+$primary-color: orangered;
+
+.output {
+  background-color: $background-color;
+  padding: 8rem 10%;
+  height: 100vh;
+  color: $color-white;
+  font-size: 1.4rem;
+  font-weight: 300;
+  .row {
+    border: 2px solid $color-white;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  h2 {
+    text-align: left;
+    color: $color-white;
+    font-size: 30px;
+    font-weight: 300;
+    line-height: 3.6rem;
+    padding: 20px 0;
+    span {
+      font-weight: 800;
+    }
+  }
+
+  .client-header {
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid darkgrey;
+
+    .header-block {
+      text-transform: capitalize;
+      width: 23%;
+
+      &:last-child {
+        width: 8%;
+      }
+      button {
+        color: $primary-color;
+        font-weight: 700;
+        background-color: $color-white;
+        border: none;
+        padding: 10px 15px;
+        &:hover {
+          color: $color-white;
+          background-color: $primary-color;
+        }
+      }
+    }
+  }
+}

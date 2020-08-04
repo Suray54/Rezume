@@ -1,8 +1,8 @@
 import React, { Component } from "react";
 import "./homepage.styles.scss";
 
-import Navbar from "../../layouts/navbar/navbar.component";
 import Footer from "../../layouts/footer/footer.component";
+import Navbar from "../../layouts/navbar/navbar.component";
 
 import SectionOne from "../../components/section-one/section-one.component";
 import SectionTwo from "../../components/section-two/section-two.component";

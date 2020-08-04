@@ -22,6 +22,34 @@ export const createClient = async ({ name, email, phone, message }) => {
     message,
   });
 };
+export const convertClientSnapShotToMap = (collections) => {
+  const transformedCollection = collections.docs.map((doc) => {
+    const { name, email, phone, message } = doc.data(); //...allprops
+    return {
+      id: doc.id,
+      name,
+      email,
+      phone,
+      message,
+      //...allprops
+    };
+  });
+  return transformedCollection;
+};
+
+export const deleteClient = (id) => {
+  firestore
+    .collection("Client")
+    .doc(id)
+    .delete()
+    .then(() => {
+      console.log("Document successfully deleted!");
+    })
+    .catch((error) => {
+      console.error("Error removing document: ", error);
+    });
+};
+
 firebase.initializeApp(config);
 export const firestore = firebase.firestore();
 export default firebase;

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.styles.scss";
 import Scrollspy from "react-scrollspy";
+
 export default class navbar extends Component {
   render() {
     return (
