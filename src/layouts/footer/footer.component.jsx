@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <section className="footer">
       <p>
-        Copyright &#169; 2020 all rights reserved | developed by
+        Copyright &#169; all rights reserved | developed by
         <a href="#section-home">Suranjan rai</a>
       </p>
       <div className="social">

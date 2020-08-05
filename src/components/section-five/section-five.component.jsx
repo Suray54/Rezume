@@ -15,10 +15,11 @@ export default function SectionFive() {
           <img src={anup} alt="UIUX" className="testimonial__img" />
           <div className="testimonial__details">
             <p>
-              &ldquo;Far far away, behind the word mountains, far from the
-              countries Vokalia and Consonantia, there live the blind texts.
-              Separated they live in Bookmarksgrove right at the coast of the
-              Semantics, a large language ocean.&rdquo;
+              &ldquo;I have worked with Suranjan Rai and known him for more than
+              5 years. Rai understands the needs of a startup - he's reliable,
+              flexible and consistently delivers a valuable service. He's a
+              smart guy who loves to problem solve with fresh ideas. As a bonus,
+              he's absolute pleasure to work with.&rdquo;
             </p>
             <cite>&mdash; Anup Maharjan</cite>
           </div>
@@ -27,10 +28,12 @@ export default function SectionFive() {
           <img src={sushil} alt="UIUX" className="testimonial__img" />
           <div className="testimonial__details">
             <p>
-              &ldquo;Far far away, behind the word mountains, far from the
-              countries Vokalia and Consonantia, there live the blind texts.
-              Separated they live in Bookmarksgrove right at the coast of the
-              Semantics, a large language ocean.&rdquo;
+              &ldquo;It is very crucial for a person to have good communication
+              skills in order to work in a group. We were able to work
+              coherently and made the project a huge success. Being a technology
+              enthusiast he is up-to-date with new technology and provides wide
+              range of services. I was glad I chose right person to work
+              with.&rdquo;
             </p>
             <cite>&mdash; Sushil Shrestha</cite>
           </div>
