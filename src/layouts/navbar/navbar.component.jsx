@@ -17,7 +17,7 @@ export default class navbar extends Component {
               aria-expanded="false"
               aria-label="Toggle navigation"
             >
-              <i class="fa fa-bars" aria-hidden="true"></i>
+              <i className="fa fa-bars" aria-hidden="true"></i>
             </button>
 
             <div

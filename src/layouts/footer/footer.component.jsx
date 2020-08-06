@@ -27,7 +27,7 @@ export default function Footer() {
         <a
           href="https://www.linkedin.com/in/suranjan-rai-991309136/"
           rel="nofollow"
-          class="social__item"
+          className="social__item"
         >
           <i className="fa fa-linkedin"></i>
         </a>

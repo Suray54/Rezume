@@ -22,8 +22,8 @@ export default function SectionSix() {
               applications and social network services.
             </p>
             <div className="button">
-              <a href="#section-portfolio" class="site-link">
-                Learn More <i class="fas fa-chevron-right"></i>
+              <a href="#section-portfolio">
+                Learn More <i className="fas fa-chevron-right"></i>
               </a>
             </div>
           </div>
@@ -39,8 +39,8 @@ export default function SectionSix() {
               iconography and illustration.
             </p>
             <div className="button">
-              <a href="#section-portfolio" class="site-link">
-                Learn More <i class="fas fa-chevron-right"></i>
+              <a href="#section-portfolio">
+                Learn More <i className="fas fa-chevron-right"></i>
               </a>
             </div>
           </div>
@@ -57,8 +57,8 @@ export default function SectionSix() {
               programming alone.
             </p>
             <div className="button">
-              <a href="#section-portfolio" class="site-link">
-                Learn More <i class="fas fa-chevron-right"></i>
+              <a href="#section-portfolio">
+                Learn More <i className="fas fa-chevron-right"></i>
               </a>
             </div>
           </div>

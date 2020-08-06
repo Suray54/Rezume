@@ -75,7 +75,8 @@ export default class SectionThree extends Component {
             {educations.map((education) => (
               <div className="education-item" key={education.id}>
                 <span>
-                  <i class="fas fa-calendar-week"></i> &nbsp;{education.date}
+                  <i className="fas fa-calendar-week"></i> &nbsp;
+                  {education.date}
                 </span>
                 <h3>{education.title}</h3>
                 <p>{education.detail}</p>
@@ -89,7 +90,8 @@ export default class SectionThree extends Component {
             {experiences.map((experience) => (
               <div className="experience-item" key={experience.id}>
                 <span>
-                  <i class="fas fa-calendar-week"></i>&nbsp; {experience.date}
+                  <i className="fas fa-calendar-week"></i>&nbsp;{" "}
+                  {experience.date}
                 </span>
                 <h3>{experience.title}</h3>
                 <p>{experience.detail}</p>

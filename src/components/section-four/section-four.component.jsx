@@ -8,7 +8,7 @@ export default function SectionFour() {
     <section className="section4" id="section-about">
       <div className="row about">
         <div className="col-lg-7 about__img">
-          <img src={html} class="img-responsive" alt="html" />
+          <img src={html} className="img-responsive" alt="html" />
         </div>
         <div className="col-lg-5 about__details">
           <h2>

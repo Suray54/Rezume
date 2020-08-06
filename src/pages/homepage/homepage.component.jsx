@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import "./homepage.styles.scss";
-
+import "./homepage";
 import Footer from "../../layouts/footer/footer.component";
 import Navbar from "../../layouts/navbar/navbar.component";
 import SectionThree from "../../components/section-three/section-three.component";
