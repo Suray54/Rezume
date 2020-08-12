@@ -10,6 +10,7 @@ export default class App extends Component {
         <SimpleReactLightbox>
           <Switch>
             <Route exact path="/" component={Homepage} />
+            <Route exact path="/rezume" component={Homepage} />
             <Route exact path="/9860124286" component={Output} />
           </Switch>
         </SimpleReactLightbox>
