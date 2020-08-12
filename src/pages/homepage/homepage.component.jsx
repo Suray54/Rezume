@@ -15,7 +15,7 @@ import SectionSeven from "../../components/section-seven/section-seven.component
 export default class Homepage extends Component {
   render() {
     return (
-      <div data-spy="scroll" data-target=".navbar" data-offset="50">
+      <div>
         <Navbar />
         <SectionOne />
         <SectionTwo />
