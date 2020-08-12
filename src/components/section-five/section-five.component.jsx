@@ -1,7 +1,7 @@
 import React from "react";
 import anup from "./../../assets/anup.jpg";
 import sushil from "./../../assets/sushil.jpg";
-
+import { SRLWrapper } from "simple-react-lightbox";
 import "./section-five.styles.scss";
 
 export default function SectionFive() {
@@ -12,7 +12,10 @@ export default function SectionFive() {
       </h2>
       <div className="row">
         <div className="col-md-6 testimonial">
-          <img src={anup} alt="UIUX" className="testimonial__img" />
+          <SRLWrapper>
+            <img src={anup} alt="Anup Maharjan" className="testimonial__img" />
+          </SRLWrapper>
+
           <div className="testimonial__details">
             <p>
               &ldquo;I have worked with Suranjan Rai and known him for more than
@@ -25,7 +28,14 @@ export default function SectionFive() {
           </div>
         </div>
         <div className="col-md-6 testimonial">
-          <img src={sushil} alt="UIUX" className="testimonial__img" />
+          <SRLWrapper>
+            <img
+              src={sushil}
+              alt="Sushil Shrestha"
+              className="testimonial__img"
+            />
+          </SRLWrapper>
+
           <div className="testimonial__details">
             <p>
               &ldquo;It is very crucial for a person to have good communication
