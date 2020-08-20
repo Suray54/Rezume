@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import "./navbar.styles.scss";
 import Scrollspy from "react-scrollspy";
 
-export default class navbar extends Component {
+export default class Navbar extends Component {
   render() {
     return (
       <div>
@@ -65,6 +65,14 @@ export default class navbar extends Component {
                   <li className="nav-item">
                     <a className="nav-link" href="#section-contact">
                       Contact
+                    </a>
+                  </li>
+                  <li className="nav-item">
+                    <a
+                      className="nav-link"
+                      href="https://suray54.github.io/blog/"
+                    >
+                      Blog
                     </a>
                   </li>
                 </Scrollspy>
