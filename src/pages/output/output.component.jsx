@@ -12,10 +12,10 @@ export default class Output extends Component {
   };
   componentDidMount() {
     const showRef = firestore.collection("Client");
-    showRef.onSnapshot(async (snapshot) => {
-      console.log(snapshot);
+    showRef.get().then((snapshot) => {
+      //console.log(snapshot);
       const contactMap = convertClientSnapShotToMap(snapshot);
-      console.log(contactMap);
+      //console.log(contactMap);
       this.setState({ collections: contactMap });
     });
   }
