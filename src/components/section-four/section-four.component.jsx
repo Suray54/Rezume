@@ -7,10 +7,10 @@ export default function SectionFour() {
   return (
     <section className="section4" id="section-about">
       <div className="row about">
-        <div className="col-lg-7 about__img">
+        <div className="col-lg-7 about__img" data-aos={"fade-right"}>
           <img src={html} alt="html" />
         </div>
-        <div className="col-lg-5 about__details">
+        <div className="col-lg-5 about__details" data-aos={"fade-left"}>
           <h2>
             About <span>Me</span>
           </h2>

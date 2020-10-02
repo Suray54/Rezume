@@ -10,6 +10,9 @@ $primary-color: orangered;
   padding: 8rem 10%;
   .about {
     &__img {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
       img {
         width: 100%;
       }

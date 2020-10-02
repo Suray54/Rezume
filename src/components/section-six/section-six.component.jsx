@@ -7,10 +7,10 @@ import "./section-six.styles.scss";
 export default function SectionSix() {
   return (
     <section className="section6" id="section-services">
-      <h2>
+      <h2 data-aos={"fade-right"}>
         My <span>Services</span>
       </h2>
-      <div className="row">
+      <div className="row" data-aos={"fade-left"}>
         <div className="col-md-4 ">
           <div className="service">
             <img src={html} alt="UIUX" className="service__img" />

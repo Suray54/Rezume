@@ -5,10 +5,10 @@ import ContactForm from "../contact-form/contact-form.component";
 export default function SectionSeven() {
   return (
     <section className="section7" id="section-contact">
-      <h2>
+      <h2 data-aos={"fade-right"}>
         Contact <span>Me</span>
       </h2>
-      <div className="row contact">
+      <div className="row contact" data-aos={"fade-left"}>
         <div className="col-md-7 ">
           <h2>Get In Touch</h2>
           <div className="contact__form">

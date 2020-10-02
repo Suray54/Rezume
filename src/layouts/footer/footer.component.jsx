@@ -5,11 +5,11 @@ import "./footer.styles.scss";
 export default function Footer() {
   return (
     <section className="footer">
-      <p>
+      <p data-aos={"fade-up"}>
         Copyright &#169; all rights reserved | developed by
         <a href="#section-home">Suranjan rai</a>
       </p>
-      <div className="social">
+      <div className="social" data-aos={"fade-up"}>
         <a
           href="https://www.facebook.com/suranjan.rai.12"
           rel="nofollow"

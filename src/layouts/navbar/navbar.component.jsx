@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.styles.scss";
 import Scrollspy from "react-scrollspy";
-
+import Resume from "./../../assets/Resume.pdf";
 export default class Navbar extends Component {
   render() {
     return (
@@ -76,6 +76,11 @@ export default class Navbar extends Component {
                     </a>
                   </li>
                 </Scrollspy>
+                <div className="button">
+                  <a href={Resume} className="button__CV">
+                    Download CV
+                  </a>
+                </div>
               </ul>
             </div>
           </div>

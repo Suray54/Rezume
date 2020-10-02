@@ -66,10 +66,10 @@ export default class SectionThree extends Component {
 
     return (
       <section className="section3" id="section-resume">
-        <h2>
+        <h2 data-aos={"fade-right"}>
           My <span>Resume</span>
         </h2>
-        <div className="row">
+        <div className="row" data-aos={"fade-left"}>
           <div className="col-md-6 education">
             <h2>Education</h2>
             {educations.map((education) => (

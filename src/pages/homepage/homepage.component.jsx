@@ -12,6 +12,7 @@ import SectionFive from "../../components/section-five/section-five.component";
 import SectionSix from "../../components/section-six/section-six.component";
 import SectionSeven from "../../components/section-seven/section-seven.component";
 
+import { SRLWrapper } from "simple-react-lightbox";
 export default class Homepage extends Component {
   render() {
     return (
@@ -19,11 +20,13 @@ export default class Homepage extends Component {
         <Navbar />
         <SectionOne />
         <SectionTwo />
-        <SectionThree />
-        <SectionFour />
-        <SectionFive />
-        <SectionSix />
-        <SectionSeven />
+        <SRLWrapper>
+          <SectionThree />
+          <SectionFour />
+          <SectionFive />
+          <SectionSix />
+          <SectionSeven />
+        </SRLWrapper>
         <Footer />
       </div>
     );

@@ -1,10 +1,44 @@
 $primary-color: orangered;
+$color-grey: grey;
+$color-white: #fff;
 .navbar {
   text-transform: uppercase;
   padding: 35px 10%;
   background-color: transparent;
   z-index: 1000;
   &-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .button {
+      @media only screen and (max-width: 1200px) {
+        display: none;
+      }
+      @media only screen and (max-width: 975px) {
+        display: block;
+      }
+      margin-left: 20px;
+      a {
+        text-decoration: none;
+      }
+
+      &__CV {
+        font-size: 12px;
+        letter-spacing: 3px;
+        line-height: 18px;
+        background-color: $primary-color;
+        padding: 8px 34px;
+        outline: none;
+        color: $color-white;
+        border-radius: 20px;
+        border: none;
+        text-transform: uppercase;
+
+        &:hover {
+          background-color: $color-grey;
+        }
+      }
+    }
     li {
       a {
         font-size: 1.2rem;
