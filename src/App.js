@@ -4,6 +4,7 @@ import Homepage from "./pages/homepage/homepage.component";
 import Output from "./pages/output/output.component";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./chat"
 import SimpleReactLightbox from "simple-react-lightbox";
 export default class App extends Component {
   render() {
@@ -11,6 +12,7 @@ export default class App extends Component {
       duration: 600,
       delay: 100,
     });
+    
     return (
       <div>
         <SimpleReactLightbox>
