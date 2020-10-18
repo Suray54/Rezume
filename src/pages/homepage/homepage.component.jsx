@@ -16,7 +16,7 @@ import { SRLWrapper } from "simple-react-lightbox";
 export default class Homepage extends Component {
   render() {
     return (
-      <div>
+      <div className="homepage">
         <Navbar />
         <SectionOne />
         <SectionTwo />

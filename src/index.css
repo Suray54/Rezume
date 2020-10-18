@@ -7,7 +7,10 @@
   text-decoration: none;
   list-style: none;
 }
-
+html,
+body {
+  overflow-x: hidden;
+}
 html {
   font-size: 62.5%;
 }
