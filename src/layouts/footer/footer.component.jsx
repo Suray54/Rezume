@@ -9,7 +9,7 @@ export default function Footer() {
         Copyright &#169; all rights reserved | developed by
         <a href="#section-home">Suranjan rai</a>
       </p>
-      <div className="social" data-aos={"fade-up"}>
+      <div className="social">
         <a
           href="https://www.facebook.com/suranjan.rai.12"
           rel="nofollow"

@@ -2,12 +2,13 @@ $color-white: #fff;
 $color-black: #000;
 
 .section1 {
+  width: 100vw;
   background-color: $color-black;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
   position: relative;
-  overflow: hidden;
+
   &:before {
     content: "";
     position: absolute;
@@ -19,12 +20,14 @@ $color-black: #000;
     background: rgba(0, 0, 0, 0.5);
   }
   .details {
-    min-height: 800px;
+    width: 100vw;
+    min-height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
+
     h1 {
       z-index: 100;
       color: $color-white;
