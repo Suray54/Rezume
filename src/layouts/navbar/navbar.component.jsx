@@ -2,11 +2,12 @@ import React, { Component } from "react";
 import "./navbar.styles.scss";
 import Scrollspy from "react-scrollspy";
 import Resume from "./../../assets/Resume.pdf";
+
 export default class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg fixed-top " id="pb-navbar">
+        <div className="navbar navbar-expand-lg fixed-top " id="pb-navbar">
           <div className="container">
             <button
               className="navbar-toggler"
@@ -84,7 +85,7 @@ export default class Navbar extends Component {
               </ul>
             </div>
           </div>
-        </nav>
+        </div>
       </div>
     );
   }
