@@ -9,6 +9,8 @@ import portfolio from "./../../assets/portfolio.JPG";
 import blog from "./../../assets/blog.JPG";
 import todo from "./../../assets/todo.JPG";
 import gallery from "./../../assets/gallery.JPG";
+import SSPRM from "./../../assets/SSPRM.JPG";
+import EFU from "./../../assets/EFU.JPG";
 
 export default function SectionTwo() {
   return (
@@ -32,6 +34,16 @@ export default function SectionTwo() {
         </button>
       </div>
       <div className="row" data-aos={"fade-right"}>
+        <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ui website">
+          <a href="https://suray54.github.io/SSPRM/">
+            <img src={SSPRM} alt="UIUX" />
+          </a>
+        </div>
+        <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ui website">
+          <a href="https://educationalflavouraaus.netlify.app/">
+            <img src={EFU} alt="UIUX" />
+          </a>
+        </div>
         <div className="gallery_product col-lg-4 col-md-4 col-sm-4 col-xs-6 filter ui website">
           <a href="https://suray54.github.io/Rezume/">
             <img src={portfolio} alt="UIUX" />
